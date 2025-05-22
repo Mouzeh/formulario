@@ -266,7 +266,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         if (!/^\+?\d{8,12}$/.test(valor)) {
-            mostrarError('errorTelefono', 'Formato de teléfono inválido. Debe contener entre 8 y 12 dígitos, opcionalmente iniciando con "+".', entrada);
+            mostrarError('errorTelefono', 'Formato de teléfono inválido. Debe contener entre 8 y 12 dígitos.', entrada);
             return false;
         }
         
